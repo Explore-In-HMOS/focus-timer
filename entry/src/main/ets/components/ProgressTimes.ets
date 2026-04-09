@@ -7,15 +7,18 @@ import { SizeConstants } from '../constants/SizeConstants';
 @Component
 export default struct ProgressTimes {
   @ObjectLink program: Program;
+  onTimesChanged: () => void = () => {}
   private focuses = this.program.getFocusList()
 
   build() {
     Column() {
-      List() {
+      List({ space: 6 }) {
         ForEach(this.focuses, (focus: Focus) => {
           ListItem() {
-            Column() {
+            Column({ space: 4 }) {
               Text(focusName(focus.type, true))
+                .fontSize(11)
+                .fontColor('#CCCCCC')
               CounterComponent({
                 options: {
                   type: CounterType.COMPACT,
@@ -27,17 +30,28 @@ export default struct ProgressTimes {
                     focusable: false,
                     onChange: (val: number) => {
                       this.program.changeDefaultTime(focus.type, val)
+                      focus.value = val
+                      this.onTimesChanged()
                     }
                   }
                 }
               })
             }
             .width(SizeConstants.FULL_WIDTH_PERCENT)
+            .padding({ top: 4, bottom: 4 })
           }
         }, (item: Focus, index: number) => `${JSON.stringify(item)}`)
       }
       .width(SizeConstants.FULL_WIDTH_PERCENT)
-      .height(SizeConstants.FULL_HEIGHT_PERCENT)
+      .layoutWeight(1)
+      .padding({
+        top: SizeConstants.PAGE_HEADER_TOP_PADDING,
+        bottom: SizeConstants.PAGE_CONTENT_BOTTOM_PADDING,
+        left: SizeConstants.PAGE_SIDE_PADDING,
+        right: SizeConstants.PAGE_SIDE_PADDING
+      })
+      .scrollBar(BarState.Auto)
+      .edgeEffect(EdgeEffect.Spring)
     }
     .width(SizeConstants.FULL_WIDTH_PERCENT)
     .height(SizeConstants.FULL_HEIGHT_PERCENT)

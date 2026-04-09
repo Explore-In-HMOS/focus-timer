@@ -1,52 +1,136 @@
 {
   "string": [
-    {
-      "name": "module_desc",
-      "value": "module description"
-    },
-    {
-      "name": "EntryAbility_desc",
-      "value": "description"
-    },
-    {
-      "name": "EntryAbility_label",
-      "value": "Focus Timer"
-    },
-    {
-      "name": "reset",
-      "value": "Reset"
-    },
-    {
-      "name": "stop",
-      "value": "Stop"
-    },
-    {
-      "name": "start",
-      "value": "Start"
-    },
-    {
-      "name": "skip",
-      "value": "Skip"
-    },
-    {
-      "name": "focus",
-      "value": "Focus"
-    },
-    {
-      "name": "break",
-      "value": "Break"
-    },
-    {
-      "name": "short_break",
-      "value": "Short Break"
-    },
-    {
-      "name": "long_break",
-      "value": "Long Break"
-    },
-    {
-      "name": "plus_five",
-      "value": "+5 Mins"
-    }
+    { "name": "module_desc", "value": "Focus Timer - Pomodoro Technique for Wearables" },
+    { "name": "EntryAbility_desc", "value": "Focus Timer Application" },
+    { "name": "EntryAbility_label", "value": "Focus Timer" },
+    { "name": "reset", "value": "Reset" },
+    { "name": "stop", "value": "Stop" },
+    { "name": "start", "value": "Start" },
+    { "name": "skip", "value": "Skip" },
+    { "name": "focus", "value": "Focus" },
+    { "name": "break", "value": "Break" },
+    { "name": "short_break", "value": "Short Break" },
+    { "name": "long_break", "value": "Long Break" },
+    { "name": "plus_five", "value": "+5 Mins" },
+
+    { "name": "statistics", "value": "Statistics" },
+    { "name": "settings", "value": "Settings" },
+    { "name": "achievements", "value": "Achievements" },
+    { "name": "programs", "value": "Programs" },
+
+    { "name": "sessions", "value": "Sessions" },
+    { "name": "minutes_label", "value": "Minutes" },
+    { "name": "minutes", "value": "min" },
+    { "name": "goal", "value": "Goal" },
+    { "name": "daily_goal", "value": "Daily Goal" },
+    { "name": "streak", "value": "Streak" },
+    { "name": "best_streak", "value": "Best" },
+    { "name": "weekly_chart", "value": "Weekly Overview" },
+    { "name": "tag_distribution", "value": "Categories" },
+    { "name": "calendar_heatmap", "value": "Activity Map" },
+    { "name": "less", "value": "Less" },
+    { "name": "more", "value": "More" },
+
+    { "name": "select_tag", "value": "Category" },
+    { "name": "tag_work", "value": "Work" },
+    { "name": "tag_study", "value": "Study" },
+    { "name": "tag_coding", "value": "Coding" },
+    { "name": "tag_exercise", "value": "Exercise" },
+    { "name": "tag_reading", "value": "Reading" },
+    { "name": "tag_meditation", "value": "Meditation" },
+
+    { "name": "select_theme", "value": "Theme" },
+    { "name": "theme_purple", "value": "Purple" },
+    { "name": "theme_blue", "value": "Blue" },
+    { "name": "theme_green", "value": "Green" },
+    { "name": "theme_red", "value": "Red" },
+    { "name": "theme_orange", "value": "Orange" },
+    { "name": "theme_cyan", "value": "Cyan" },
+
+    { "name": "intensity", "value": "Intensity" },
+    { "name": "intensity_light", "value": "Light" },
+    { "name": "intensity_normal", "value": "Normal" },
+    { "name": "intensity_intense", "value": "Intense" },
+
+    { "name": "cycles", "value": "Cycles" },
+    { "name": "session_complete", "value": "Session Complete!" },
+    { "name": "continue", "value": "Continue" },
+    { "name": "cancel", "value": "Cancel" },
+    { "name": "confirm", "value": "Confirm" },
+    { "name": "achievement_unlocked", "value": "Achievement Unlocked!" },
+    { "name": "awesome", "value": "Awesome!" },
+
+    { "name": "settings_timer", "value": "TIMER" },
+    { "name": "settings_appearance", "value": "APPEARANCE" },
+    { "name": "settings_more", "value": "MORE" },
+    { "name": "about", "value": "ABOUT" },
+    { "name": "version", "value": "Version" },
+    { "name": "auto_skip", "value": "Auto Skip" },
+    { "name": "show_quotes", "value": "Show Quotes" },
+
+    { "name": "onboarding_welcome", "value": "Welcome to Focus Timer" },
+    { "name": "onboarding_welcome_desc", "value": "Stay focused and boost your productivity with the Pomodoro Technique" },
+    { "name": "onboarding_how_title", "value": "How It Works" },
+    { "name": "onboarding_step1", "value": "Focus for 25 minutes" },
+    { "name": "onboarding_step2", "value": "Take a 5-minute break" },
+    { "name": "onboarding_step3", "value": "Repeat the cycle" },
+    { "name": "onboarding_step4", "value": "Long break after 3 cycles" },
+    { "name": "onboarding_goal_title", "value": "Set Your Daily Goal" },
+    { "name": "onboarding_theme_title", "value": "Choose Your Theme" },
+    { "name": "next", "value": "Next" },
+    { "name": "get_started", "value": "Get Started" },
+
+    { "name": "prog_pomodoro", "value": "Pomodoro" },
+    { "name": "prog_pomodoro_desc", "value": "Classic 25/5/20 technique" },
+    { "name": "prog_deep_work", "value": "Deep Work" },
+    { "name": "prog_deep_work_desc", "value": "Long 90-minute focus sessions" },
+    { "name": "prog_sprint", "value": "Sprint" },
+    { "name": "prog_sprint_desc", "value": "Quick 15-minute bursts" },
+    { "name": "prog_study", "value": "Study" },
+    { "name": "prog_study_desc", "value": "50/10/25 for study sessions" },
+
+    { "name": "break_walk", "value": "Walk" },
+    { "name": "break_walk_desc", "value": "Take a short walk around" },
+    { "name": "break_water", "value": "Hydrate" },
+    { "name": "break_water_desc", "value": "Drink a glass of water" },
+    { "name": "break_eyes", "value": "Eye Rest" },
+    { "name": "break_eyes_desc", "value": "Look at something 20ft away" },
+    { "name": "break_stretch", "value": "Stretch" },
+    { "name": "break_stretch_desc", "value": "Stretch your body" },
+    { "name": "break_relax", "value": "Relax" },
+    { "name": "break_relax_desc", "value": "Close your eyes and relax" },
+    { "name": "break_smile", "value": "Smile" },
+    { "name": "break_smile_desc", "value": "Smile and think positive" },
+
+    { "name": "ach_first_session", "value": "First Step" },
+    { "name": "ach_first_session_desc", "value": "Complete your first session" },
+    { "name": "ach_ten_sessions", "value": "Getting Going" },
+    { "name": "ach_ten_sessions_desc", "value": "Complete 10 sessions" },
+    { "name": "ach_fifty_sessions", "value": "Dedicated" },
+    { "name": "ach_fifty_sessions_desc", "value": "Complete 50 sessions" },
+    { "name": "ach_hundred_sessions", "value": "Centurion" },
+    { "name": "ach_hundred_sessions_desc", "value": "Complete 100 sessions" },
+    { "name": "ach_five_hundred_sessions", "value": "Legendary" },
+    { "name": "ach_five_hundred_sessions_desc", "value": "Complete 500 sessions" },
+    { "name": "ach_hour_focus", "value": "Hour Power" },
+    { "name": "ach_hour_focus_desc", "value": "Focus for 60 total minutes" },
+    { "name": "ach_five_hour_focus", "value": "Marathon" },
+    { "name": "ach_five_hour_focus_desc", "value": "Focus for 5 total hours" },
+    { "name": "ach_day_focus", "value": "Full Day" },
+    { "name": "ach_day_focus_desc", "value": "Focus for 24 total hours" },
+    { "name": "ach_three_day_streak", "value": "Warming Up" },
+    { "name": "ach_three_day_streak_desc", "value": "3-day streak" },
+    { "name": "ach_seven_day_streak", "value": "On Fire" },
+    { "name": "ach_seven_day_streak_desc", "value": "7-day streak" },
+    { "name": "ach_thirty_day_streak", "value": "Unstoppable" },
+    { "name": "ach_thirty_day_streak_desc", "value": "30-day streak" },
+    { "name": "ach_all_tags", "value": "Explorer" },
+    { "name": "ach_all_tags_desc", "value": "Use all 6 categories" },
+    { "name": "ach_theme_changer", "value": "Stylist" },
+    { "name": "ach_theme_changer_desc", "value": "Try 3 different themes" },
+    { "name": "ach_all_programs", "value": "Versatile" },
+    { "name": "ach_all_programs_desc", "value": "Try all 4 programs" },
+    { "name": "ach_early_bird", "value": "Early Bird" },
+    { "name": "ach_early_bird_desc", "value": "5 sessions before 7 AM" }
   ]
 }

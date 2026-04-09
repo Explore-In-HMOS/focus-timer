@@ -1,8 +1,12 @@
 {
   "color": [
-    {
-      "name": "start_window_background",
-      "value": "#000000"
-    }
+    { "name": "start_window_background", "value": "#000000" },
+    { "name": "bg_primary", "value": "#000000" },
+    { "name": "bg_card", "value": "#111111" },
+    { "name": "bg_elevated", "value": "#222222" },
+    { "name": "text_primary", "value": "#FFFFFF" },
+    { "name": "text_secondary", "value": "#CCCCCC" },
+    { "name": "text_tertiary", "value": "#888888" },
+    { "name": "divider", "value": "#2A2A2A" }
   ]
 }
